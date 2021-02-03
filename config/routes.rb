@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 root 'homes#top'
 
 get 'books' => 'books#index', as: 'books'
+post 'books' => 'books#create'
 end
