@@ -4,4 +4,5 @@ root 'homes#top'
 
 get 'books' => 'books#index', as: 'books'
 post 'books' => 'books#create'
+get 'books/:id' => 'books#show', as: 'book'
 end

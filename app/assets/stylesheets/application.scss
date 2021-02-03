@@ -22,3 +22,17 @@ body {
   line-height: 18px;
   margin: 33px;
 }
+
+a {
+  color: #333;
+  
+  &:hover {
+    color: white;
+    background-color: black;
+  }
+}
+
+p.alert-notice {
+  margin: 33px;
+  color: green;
+}
