@@ -28,11 +28,11 @@
   <%= render 'layouts/error_messages' %>
   
   <div class="newbooks-form">
-    <%= f.label :title %> <br>
+    <%= f.label :title, class: 'title-head' %> 
     <%= f.text_field :title %>
   </div>
   <div class="newbooks-form">
-    <%= f.label :body %> <br>
+    <%= f.label :body, class: 'body-head' %>
     <%= f.text_area :body %>
   </div>
   
